@@ -2,10 +2,10 @@
 #include <vector>
 
 int main(){
-	vector <int> v2={10,14,32,64,16};
+	std::vector <int> v2={10,14,32,64,16};
 	
 	for(int a=0; a<4; a++){
-		cout << v2[a] << " ";
+		std::cout << v2[a] << " ";
 	}
 	
 	for(int i=0; i<4; i++){
@@ -17,7 +17,7 @@ int main(){
 	}
 	
 	for(int z=0; z<4; z++){
-		cout << v2[z] << " ";
+		std::cout << v2[z] << " ";
 	}
 	
 	return 0;
